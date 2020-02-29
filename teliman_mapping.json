@@ -1,0 +1,13 @@
+{
+ "index_patterns": ["teliman-*"],
+ "mappings": {
+   "doc": {
+     "properties": {
+       "infoORdebug": { "type": "keyword" },
+       "user": { "type": "keyword" },
+       "time": { "type": "keyword" },
+       "action": { "type": "keyword" }
+      }
+    }
+  }
+}
